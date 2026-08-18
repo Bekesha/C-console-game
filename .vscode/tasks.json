@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ Game",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Game/main.cpp",
+                "-o",
+                "${workspaceFolder}/Game/game"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

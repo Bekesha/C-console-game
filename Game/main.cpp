@@ -24,7 +24,7 @@ class Character{
 
     void takeDamage(int damage) {
         health -= damage;
-
+        
         if (health < 0) {
             health = 0;
         }
@@ -182,7 +182,6 @@ bool bossFight(Player& player, Boss& boss) {
 
     if (player.getHealth() <= 0)
     {
-        cout << "Вы проиграли!\n";
         player.resetHealth();
         boss.resetHealth();
         return false;
@@ -254,7 +253,6 @@ bool secondEnemy(Player& player, Robot& robot) {
 
     if (player.getHealth() <= 0)
     {
-        cout << "Вы проиграли!\n";
         player.resetHealth();
         robot.resetHealth();
         return false;
@@ -329,7 +327,6 @@ bool firstEnemy(Player& player, Zombie& zombie)
 
     if (player.getHealth() <= 0)
     {
-        cout << "Вы проиграли!\n";
         player.resetHealth();
         zombie.resetHealth();
         return false;

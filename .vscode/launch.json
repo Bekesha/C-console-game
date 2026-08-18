@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C++ Game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Game/game",
+            "cwd": "${workspaceFolder}/Game",
+            "stopAtEntry": false,
+            "MIMode": "lldb",
+            "externalConsole": true,
+            "preLaunchTask": "Build C++ Game"
+        }
+    ]
+}
