@@ -1,2 +1,2 @@
-# C-console-game
+# Сonsole-game
 simple console game on C++
